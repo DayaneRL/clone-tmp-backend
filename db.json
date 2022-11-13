@@ -1,0 +1,225 @@
+{
+  "users": [
+    {
+      "name": "TESTINHO DE SOUZA",
+      "email": "test@test.com",
+      "state": "TO",
+      "password": "ASD",
+      "id": 1
+    },
+    {
+      "name": "DAYANE",
+      "state": "SP",
+      "email": "test1@test.com",
+      "password": "test1",
+      "id": 2
+    },
+    {
+      "name": "DAYANE",
+      "state": "SP",
+      "email": "test2@test.com",
+      "password": "test2",
+      "id": 3
+    },
+    {
+      "name": "FULANO",
+      "state": "RJ",
+      "email": "test3@test.com",
+      "password": "test3",
+      "id": 4
+    }
+  ],
+  "states": [
+    {
+      "ID": "1",
+      "name": "AC",
+      "fullname": "Acre"
+    },
+    {
+      "ID": "2",
+      "name": "AL",
+      "fullname": "Alagoas"
+    },
+    {
+      "ID": "3",
+      "name": "AM",
+      "fullname": "Amazonas"
+    },
+    {
+      "ID": "4",
+      "name": "AP",
+      "fullname": "Amapá"
+    },
+    {
+      "ID": "5",
+      "name": "BA",
+      "fullname": "Bahia"
+    },
+    {
+      "ID": "6",
+      "name": "CE",
+      "fullname": "Ceará"
+    },
+    {
+      "ID": "7",
+      "name": "DF",
+      "fullname": "Distrito Federal"
+    },
+    {
+      "ID": "8",
+      "name": "ES",
+      "fullname": "Espírito Santo"
+    },
+    {
+      "ID": "9",
+      "name": "GO",
+      "fullname": "Goiás"
+    },
+    {
+      "ID": "10",
+      "name": "MA",
+      "fullname": "Maranhão"
+    },
+    {
+      "ID": "11",
+      "name": "MG",
+      "fullname": "Minas Gerais"
+    },
+    {
+      "ID": "12",
+      "name": "MS",
+      "fullname": "Mato Grosso do Sul"
+    },
+    {
+      "ID": "13",
+      "name": "MT",
+      "fullname": "Mato Grosso"
+    },
+    {
+      "ID": "14",
+      "name": "PA",
+      "fullname": "Pará"
+    },
+    {
+      "ID": "15",
+      "name": "PB",
+      "fullname": "Paraíba"
+    },
+    {
+      "ID": "16",
+      "name": "PE",
+      "fullname": "Pernambuco"
+    },
+    {
+      "ID": "17",
+      "name": "PI",
+      "fullname": "Piauí"
+    },
+    {
+      "ID": "18",
+      "name": "PR",
+      "fullname": "Paraná"
+    },
+    {
+      "ID": "19",
+      "name": "RJ",
+      "fullname": "Rio de Janeiro"
+    },
+    {
+      "ID": "20",
+      "name": "RN",
+      "fullname": "Rio Grande do Norte"
+    },
+    {
+      "ID": "21",
+      "name": "RO",
+      "fullname": "Rondônia"
+    },
+    {
+      "ID": "22",
+      "name": "RR",
+      "fullname": "Roraima"
+    },
+    {
+      "ID": "23",
+      "name": "RS",
+      "fullname": "Rio Grande do Sul"
+    },
+    {
+      "ID": "24",
+      "name": "SC",
+      "fullname": "Santa Catarina"
+    },
+    {
+      "ID": "25",
+      "name": "SE",
+      "fullname": "Sergipe"
+    },
+    {
+      "ID": "26",
+      "name": "SP",
+      "fullname": "São Paulo"
+    },
+    {
+      "ID": "27",
+      "name": "TO",
+      "fullname": "Tocantins"
+    }
+  ],
+  "categories": [
+    {
+      "id":1,
+      "name": "Cats",
+      "slug": "/cats"
+    },
+    {
+      "id":2,
+      "name": "Dogs",
+      "slug": "/dogs"
+    }
+  ],
+  "ad": [
+    {
+      "priceNegotiable": false,
+      "price": "1284",
+      "id": 1,
+      "image": "https://placekitten.com/300/200",
+      "images": [
+        "https://placekitten.com/300/200",
+        "https://placekitten.com/300/200"
+      ],
+      "title": "Simbora com tudo",
+      "userId": 1,
+      "stateName": "SP",
+      "category": {
+        "id":1,
+        "name": "Cats",
+        "slug": "/cats"
+      },
+      "dateCreated": "2022-11-11",
+      "description": "TEsteando app",
+      "views": 5
+    },
+    {
+      "priceNegotiable": false,
+      "price": "67",
+      "id": 2,
+      "image": "https://placekitten.com/300/200",
+      "title": "Simbora com nada",
+      "userId": 1,
+      "images": [
+        "https://placekitten.com/300/200",
+        "https://placekitten.com/300/200"
+      ],
+      "stateName": "SP",
+      "category": {
+        "id":1,
+        "name": "Cats",
+        "slug": "/cats"
+      },
+      "dateCreated": "2022-11-11",
+      "description": "TEsteando app",
+      "views": 1
+    }
+  ]
+}
